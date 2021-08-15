@@ -8,9 +8,9 @@ public class TaskCh04N36 {
         System.out.println("t равно: ");
         double t = sc.nextDouble();
         t%=5;
-        if (t>=0 && t<=3)
+        if (t>=0 && t<3)
             System.out.println("Зеленый");
-        else if (t>3 && t<=5)
+        else if (t>=3 && t<5)
             System.out.println("Красный");
 
     }
