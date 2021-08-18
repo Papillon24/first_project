@@ -16,37 +16,37 @@ public class TaskCh04N115a {
                     System.out.print("Крыса, ");
                     break;
                 case 2:
-                    System.out.println("Корова, ");
+                    System.out.print("Корова, ");
                     break;
                 case 3:
-                    System.out.println("Тигр, ");
+                    System.out.print("Тигр, ");
                     break;
                 case 4:
-                    System.out.println("Заяц, ");
+                    System.out.print("Заяц, ");
                     break;
                 case 5:
-                    System.out.println("Дракон, ");
+                    System.out.print("Дракон, ");
                     break;
                 case 6:
-                    System.out.println("Змея, ");
+                    System.out.print("Змея, ");
                     break;
                 case 7:
-                    System.out.println("Лошадь, ");
+                    System.out.print("Лошадь, ");
                     break;
                 case 8:
-                    System.out.println("Овца, ");
+                    System.out.print("Овца, ");
                     break;
                 case 9:
-                    System.out.println("Обезьяна, ");
+                    System.out.print("Обезьяна, ");
                     break;
                 case 10:
-                    System.out.println("Петух, ");
+                    System.out.print("Петух, ");
                     break;
                 case 11:
-                    System.out.println("Собака, ");
+                    System.out.print("Собака, ");
                     break;
                 case 12:
-                    System.out.println("Свинья, ");
+                    System.out.print("Свинья, ");
                     break;
             }
             switch (colour) {
