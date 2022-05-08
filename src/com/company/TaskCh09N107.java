@@ -17,7 +17,7 @@ public class TaskCh09N107 {
             System.out.println(sub2+word3);
         }   
         else {
-            System.out.println("В слове нет букв 'a' и 'o'");
+            System.out.println("В слове '"+word+"' нет букв 'a' и 'o', чтобы поменять их местами");
         }
     }
 

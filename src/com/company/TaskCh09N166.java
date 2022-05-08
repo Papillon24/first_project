@@ -8,13 +8,13 @@ public class TaskCh09N166 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String text = scan.nextLine();
-        String[] splitResult = text.split(" ");
-        System.out.println(Arrays.toString(splitResult));
-        String start = splitResult[0];
-        String last = splitResult[splitResult.length - 1];
-        splitResult[splitResult.length - 1] = splitResult[0];
-        splitResult[0] = last;
-        text = Arrays.stream(splitResult).collect(Collectors.joining(" "));
+        String[] splitText = text.split(" ");
+        System.out.println(Arrays.toString(splitText));
+        String start = splitText[0];
+        String last = splitText[splitText.length - 1];
+        splitText[splitText.length - 1] = start;
+        splitText[0] = last;
+        text = Arrays.stream(splitText).collect(Collectors.joining(" "));
         System.out.println(text);
     }
 }
